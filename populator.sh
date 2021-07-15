@@ -3,7 +3,6 @@
 ######################################################################
 
 populate () {
-  local message="# Datos falsos de prueba"
   local wd=$(pwd)
   local ext="txt"
   local file=""
@@ -80,7 +79,7 @@ populate () {
     if [[ $ext == "txt" ]]; then
       local data="$(py $wd/$pyfile $records $ext)"
       local dest="$wd/$1/$file"
-      echo $message >> "$dest"
+      echo "# Datos falsos de prueba" >> "$dest"
       echo "# Elementos agregados: $records" >> "$dest"
       echo $data >> "$dest"
     fi

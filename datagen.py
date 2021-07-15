@@ -60,7 +60,7 @@ def data_gen():
   if (data_format == 'json'):
     [key, value] = group_data(alpha, chars, times)
     for i in range(len(key)):
-      data += f'"{key[i]}":"{value[i]}",'
+      data += f'"{key[i]}":"{value[i]}", '
   else:
     [key, value] = group_data(alpha, chars, times)
     for i in range(len(key)):
