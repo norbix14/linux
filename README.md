@@ -1,6 +1,6 @@
 # Practica con Linux
 
-Ejercicios con lo aprendido en **MissingSemester[(https://missing.csail.mit.edu/)]**
+Ejercicios con lo aprendido en **[Missing Semester from MIT](https://missing.csail.mit.edu/)**
 
 ## Creador de datos falsos
 
